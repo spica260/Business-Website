@@ -1,0 +1,22 @@
+/*
+
+Nav bar edits
+
+*/
+.nav-link, .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #4F5BC2;
+}
+.nav-link.active {
+    font-weight: bold;
+}
+.nav-link:hover {
+    color: #FF8796;
+}
+
+.dropdown-item {
+    color: #4F5BC2;
+    background-color: rgba(255, 135, 150, 0.1);
+}
+.dropdown-item:hover {
+    color: #FF8796;
+}
