@@ -42,4 +42,53 @@ Carousel edits
     font-weight: bolder;
     text-transform: uppercase;
     text-shadow: 2px 2px 0px #000;
+    -webkit-text-stroke: 2px black;
+}
+
+/*
+
+Containers edits
+
+*/
+.container {
+    margin: 80px auto 30px;
+    padding: 10px 10%;
+}
+.sec-2-img img {
+    width: auto;
+    max-height: 300px;
+}
+.section-2 h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.section-2 i {
+    color: #01B7CF;
+    font-size: 3rem;
+    margin: 15px auto 35px;
+}
+.section-2 p {
+    text-align: justify;
+}
+.section-3 {
+    width: auto;
+    height: 300px;
+    padding: 8% 0;
+    background-image: url("../images/section-3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.section-3 h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.section-3 .btn {
+    background-color: #4F5BC2;
+    font-weight: bold;
+    padding: 1% 2%;
+}
+.section-3 .btn:hover {
+    background-color: #FF8796;
 }
