@@ -23,6 +23,9 @@ Nav bar edits
 ul {
     list-style-type: none;
 }
+h2 {
+    font-weight: bold;
+}
 
 /*
 
@@ -95,6 +98,22 @@ Containers edits
 .section-3 .btn:hover {
     background-color: #FF8796;
 }
+
+/*
+
+about us page edits
+
+*/
+.about-us {
+    margin: 80px auto;
+}
+.about-us img {
+    height: 250px;
+}
+.about-us p {
+    text-align: justify;
+}
+
 /*
 
 Footer edits
