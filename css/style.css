@@ -57,7 +57,7 @@ Containers edits
 
 */
 .container {
-    margin: 80px auto 50px;
+    margin: 50px auto 80px;
     padding: 10px 10%;
 }
 .sec-2-img img {
@@ -104,14 +104,24 @@ Containers edits
 about us page edits
 
 */
-.about-us {
-    margin: 80px auto;
-}
 .about-us img {
     height: 250px;
 }
 .about-us p {
     text-align: justify;
+}
+.about-items {
+    color: #fff;
+    padding: 25px;
+}
+.about-item-1 {
+    background-color: #01B7CF;
+}
+.about-item-2 {
+    background-color: #FF8796;
+}
+.about-item-3 {
+    background-color: #FEC724;
 }
 
 /*
