@@ -152,6 +152,29 @@ Scrollspy edits
 
 /*
 
+Scrollspy edits
+
+*/
+.form-group label {
+    font-weight: bold;
+    padding: 10px 5px;
+}
+input, textarea {
+    margin-bottom: 15px;
+}
+input[type="submit"] {
+    background-color: #4F5BC2;
+    color: #fff;
+    font-weight: bold;
+}
+input[type="submit"]:hover {
+    background-color: #FF8796;
+    color: #fff;
+    font-weight: bold;
+}
+
+/*
+
 Footer edits
 
 */
