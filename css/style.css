@@ -1,3 +1,6 @@
+body {
+    position: relative;
+}
 /*
 
 Nav bar edits
@@ -122,6 +125,29 @@ about us page edits
 }
 .about-item-3 {
     background-color: #FEC724;
+}
+
+/*
+
+Scrollspy edits
+
+*/
+.scrollspy-best-sellers {
+    height: 400px;
+    overflow-y: scroll;
+    text-align: center;
+}
+.list-group-item {
+    width: 200px;
+    border: none;
+    background-color: #FF8796;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+.list-group-item:hover {
+    background-color: #FEC724;
+    color: #fff;
 }
 
 /*

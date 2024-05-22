@@ -60,7 +60,46 @@
             </nav><!--  ↑ navigation end ↑ -->
       </header>
 
-        <!--  START CONTENT HERE -->
+      <section class="container container-fluid">
+        <div class="container col-md-12 text-center">
+          <h2>Our Best Sellers Ice Creams</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <div id="best-sellers-list" class="list-group">
+              <a class="list-group-item list-group-item-action" href="#list-item-1">Cookies and cream</a>
+              <a class="list-group-item list-group-item-action" href="#list-item-2">Strawberry oreos</a>
+              <a class="list-group-item list-group-item-action" href="#list-item-3">Blue-Rasberry</a>
+              <a class="list-group-item list-group-item-action" href="#list-item-4">Salty caramel</a>
+            </div>
+        </div>
+
+        <div class="col-md-8">
+          <div data-spy="scroll" data-target="#best-sellers-list" data-offset="0" class="scrollspy-best-sellers">
+            <div class="container">
+              <h4 id="list-item-1" class="mb-4">Cookies and cream</h4>
+              <img src="./images/best-seller-1.jpg" alt="Best seller ice cream">
+            </div>
+
+            <div class="container">
+              <h4 id="list-item-2" class="mb-4">Strawberry oreos</h4>
+              <img src="./images/best-seller-2.jpg" alt="Best seller ice cream">
+            </div>
+
+            <div class="container">
+              <h4 id="list-item-3" class="mb-4">Blue-Rasberry</h4>
+              <img src="./images/best-seller-3.jpg" alt="Best seller ice cream">
+            </div>
+
+            <div class="container">
+              <h4 id="list-item-4" class="mb-4">Salty caramel</h4>
+              <img src="./images/best-seller-4.jpg" alt="Best seller ice cream">
+            </div>
+          </div>
+        </div>
+    </div><!--  ↑ row end ↑ -->
+      </section>
 
       <footer id="footer" class="footer-container">
           <div class="top-footer">
@@ -130,5 +169,8 @@
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" 
       integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+      <script>
+        $('body').scrollspy({ target: '#best-sellers-list' });
+      </script>
   </body>
 </html>
