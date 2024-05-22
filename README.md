@@ -3,8 +3,8 @@ Ice cream shop business website
 (a made-up ice cream shop)
 
 
-# Github
-github.com/spica260/Project01
+# Github Pages
+spica260.github.io
 
 
 # Project by
