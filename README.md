@@ -1,4 +1,4 @@
-# Project01
+#  Simple Business Website
 Ice cream shop business website
 (a made-up ice cream shop)
 
