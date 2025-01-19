@@ -1,6 +1,5 @@
 #  Simple Business Website
-Ice cream shop business website
-(a made-up ice cream shop)
+An ice cream shop business website
 
 
 # Github Pages
